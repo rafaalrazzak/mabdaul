@@ -334,7 +334,8 @@ button::after {
   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 }
 .about:hover{
-  transform: scale(1.05);
+  transform: scaleX(2);
+  border-radius: 0;
   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
   box-shadow: -1px -1px 252px -4px rgba(0,0,0,0.31);
 -webkit-box-shadow: -1px -1px 252px -4px rgba(0,0,0,0.31);
