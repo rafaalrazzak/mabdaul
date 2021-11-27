@@ -350,6 +350,7 @@ button::after {
 }
 
 .about__description {
+  width: 280px;
   margin-bottom: var(--mb-3);
 }
 
